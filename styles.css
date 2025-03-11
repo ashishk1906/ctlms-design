@@ -1,0 +1,89 @@
+/* Reset */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* Logo */
+.logo-img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 50px;
+    background-color: #cccac0
+}
+
+.sidebar-icon img {
+    height: 30px;
+    margin: 10px 0;
+}
+
+/* Left Panel */
+.left-panel {
+    background-color: #FCFCF5;
+    width: 300px !important ;/* Increased width */
+    border-right: 4px solid #E8E7DF; 
+}
+
+
+/* Middle Panel */
+.middle-panel {
+    background-color: #FCFBF2;
+    border-right: 3px solid #E8E7DF;
+
+}
+
+
+.middle-panel-topbar {
+    background-color: #E8E7DF;
+}
+.mid-panel-heading{
+    font-size: 26px;
+    color: #002333;
+    font-family: Arial, sans-serif;
+  }
+
+.mid-panel-subtext{
+    font-family: Arial, sans-serif;
+    color: #282828;
+    font-size: 22px;
+  }
+
+.middle-panel-cross-button{
+    color: #999998 !important;
+}
+  
+/* Right Panel */
+.right-panel {
+    background-color: #FFFFFF;
+}
+
+.right-panel-heading{
+  color: #002333;
+  font-family: Arial, sans-serif;
+  font-size: 32px;
+  border: 1px solid #E8E7DF ;
+  border-radius: 10px;
+}
+
+.right-panel-subtext{
+    font-family: Arial, sans-serif;
+    color: #333333;
+    font-size: 21px;
+}
