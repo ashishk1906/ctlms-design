@@ -1,8 +1,8 @@
-/* Reset */
 body, html {
     height: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
+    overflow: hidden;
 }
 
 /* Header */
@@ -37,7 +37,7 @@ body, html {
 /* Left Panel */
 .left-panel {
     background-color: #FCFCF5;
-    width: 300px !important ;/* Increased width */
+    width: 300px !important ;
     border-right: 4px solid #E8E7DF; 
 }
 
@@ -46,7 +46,6 @@ body, html {
 .middle-panel {
     background-color: #FCFBF2;
     border-right: 3px solid #E8E7DF;
-
 }
 
 
